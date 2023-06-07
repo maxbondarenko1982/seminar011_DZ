@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cards {
+    position: relative;
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+}
+.fetured__items {
+    padding-top: 106px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+.product__content {
+    display: flex;
+    width: 360px;
+    box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+}
+
+.name {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.info {
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.price {
+    margin-bottom: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
